@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+
+.menu {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100%;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(71, 71, 71, 0.0);
+}
+
+.menu .menu-bar {
+  background          : rgba(71, 71, 71, 1.0);
+  top                 : 0px;
+  height              : 1024px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.menu .search {
+  top                 : 343px;
+  height              : auto;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 35.0px;
+}
+.menu .home {
+  top                 : 288px;
+  height              : auto;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 35.0px;
+}
+.menu .help {
+  top                 : 233px;
+  height              : auto;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 35.0px;
+}
+.menu .settings {
+  top                 : 178px;
+  height              : auto;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 189px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 35.0px;
+}
+.menu .social {
+  top                 : 123px;
+  height              : auto;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 217px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 35.0px;
+}
+.menu .my-library {
+  top                 : 68px;
+  height              : auto;
+  width               : 151px;
+  position            : absolute;
+  margin              : 0;
+  left                : 161px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 35.0px;
+}
+.menu .close-menu {
+  top                 : 26px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+}

@@ -1,0 +1,112 @@
+{
+	"artists": [
+		{
+			"name": "Black Sabbath",
+			"genre": "Heavy Metal",
+			"description": "One of the first heavy metal bands, and one of the best.",
+			"imageURL": "http://loudwire.com/files/2015/07/Black-Sabbath-debut.jpg?w=980&q=75"			
+		},
+		{
+			"name": "Iron Maiden",
+			"genre": "Heavy Metal",
+			"description": "A shining example of why heavy metal is great.",
+			"imageURL": "https://img.discogs.com/HM5gybDrzcwiltUpKA2H_KufjFQ=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1164331-1197405059.jpeg.jpg"			
+		},
+		{
+			"name": "Judas Priest",
+			"genre": "Heavy Metal",
+			"description": "They're called the 'Metal Gods' for a reason.",
+			"imageURL": "https://cdn-s3.allmusic.com/release-covers/500/0001/075/0001075643.jpg"			
+		},
+		{
+			"name": "Megadeth",
+			"genre": "Thrash Metal",
+			"description": "These guys put out some excellent music.",
+			"imageURL": "https://www.metal-archives.com/images/1/3/8/138_photo.jpg?4147"		
+		},
+		{
+			"name": "Death",
+			"genre": "Death Metal",
+			"description": "They pioneered an entire genre of metal - enough said.",
+			"imageURL": "https://i1.wp.com/www.metalinjection.net/wp-content/uploads/2015/03/death-scream-bloody-gore.jpg?resize=500%2C500"
+		},
+		{
+			"name": "Emperor",
+			"genre": "Black Metal",
+			"description": "Easily one of the best black metal bands of all time.",
+			"imageURL": "https://img.discogs.com/bW5-20WGF-Q3UCRhfVLa6jjKoJY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-384565-1166043306.jpeg.jpg"
+		},
+        {
+            "name": "Anthrax",
+            "genre": "Thrash Metal",
+            "description": "One of the most innovative metal groups out there.",
+            "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71pPP+bO34L.png"
+        },
+        {
+            "name": "Pestilence",
+            "genre": "Death Metal",
+            "description": "Gut-churning guitars and tortured vocals? Yes, please!",
+            "imageURL": "https://img.discogs.com/mXo0HHeR6ToNu2CuBo7BJv_p5s8=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-580679-1348023351-2665.jpeg.jpg"
+        },
+        {
+            "name": "Mayhem",
+            "genre": "Black Metal",
+            "description": "If you're looking for true black metal, you've found it.",
+            "imageURL": "http://i1.wp.com/hellhammerdrummer.com/wp-content/uploads/mayhem-live-in-leipzig.jpg"
+        },
+        {
+            "name": "Testament",
+            "genre": "Thrash Metal",
+            "description": "If you like thrash metal but want even more heaviness, these guys are for you.",
+            "imageURL": "https://images-na.ssl-images-amazon.com/images/I/71DhlUVApEL.png"
+        },
+        {
+            "name": "Morbid Angel",
+            "genre": "Death Metal",
+            "description": "Their music is brutal, unrelenting, and a perfect representation of death metal.",
+            "imageURL": "https://www.metal-archives.com/images/1/9/1/191.jpg?2905"
+        },
+        {
+            "name": "Dissection",
+            "genre": "Black Metal",
+            "description": "A must listen for those into chilling, abrasive poetry from the frozen north.",
+            "imageURL": "https://images-na.ssl-images-amazon.com/images/I/61sNya34diL._SS500.jpg"
+        },
+        {
+            "name": "Opeth",
+            "genre": "Progressive Death Metal",
+            "description": "From mellow guitar licks to full-blown death growls, Opeth has you covered.",
+            "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51XS1av5JpL.jpg"
+        },
+        {
+            "name": "Atheist",
+            "genre": "Progressive Death Metal",
+            "description": "Like extreme tempo changes and meandering time signatures? You're in the right place.",
+            "imageURL": "https://www.metal-archives.com/images/1/1/4/7/1147.jpg?0127"
+        },
+        {
+            "name": "Kreator",
+            "genre": "Thrash Metal",
+            "description": "A darker, heavier brand of thrash - you have been warned.",
+            "imageURL": "https://www.metal-archives.com/images/8/0/9/809.jpg?2223"
+        },
+        {
+            "name": "Immortal",
+            "genre": "Black Metal",
+            "description": "Their music conjures up bitter winds from the remorseless winters of Scandanavia.",
+            "imageURL": "https://www.metal-archives.com/images/2/4/1/241.jpg?1241"
+        },
+        {
+            "name": "Blotted Science",
+            "genre": "Progressive Metal",
+            "description": "A technical, instrumental, prog metal supergroup. What can go wrong?",
+            "imageURL": "https://images-na.ssl-images-amazon.com/images/I/512K-P3TaaL._SX466_.jpg"
+        },
+        {
+            "name": "Dream Theater",
+            "genre": "Progressive Metal",
+            "description": "These guys are the definitive prog metal band.",
+            "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41GLr285jzL._SS500.jpg"
+        }
+	]
+}

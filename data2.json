@@ -1,0 +1,22 @@
+{
+	"artists": [
+		{
+			"name": "Black Sabbath",
+			"genre": "Heavy Metal",
+			"description": "One of the first heavy metal bands, and one of the best.",
+			"imageURL": "http://loudwire.com/files/2015/07/Black-Sabbath-debut.jpg?w=980&q=75"			
+		},
+        {
+			"name": "Iron Maiden",
+			"genre": "Heavy Metal",
+			"description": "A shining example of why heavy metal is great.",
+			"imageURL": "https://img.discogs.com/HM5gybDrzcwiltUpKA2H_KufjFQ=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1164331-1197405059.jpeg.jpg"			
+		},
+        {
+			"name": "Megadeth",
+			"genre": "Thrash Metal",
+			"description": "These guys put out some excellent music.",
+			"imageURL": "https://www.metal-archives.com/images/1/3/8/138_photo.jpg?4147"		
+		}
+	]
+}

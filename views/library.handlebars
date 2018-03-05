@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>MusiMap Library</title>
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/bootstrap-theme.css" rel="stylesheet">
+        <link href="./css/homeScreen.css" rel="stylesheet">
+
+        <!-- Icon Library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div>
+            <!-- Navbar -->
+            <nav class="navbar">
+                <div class="container">
+                    <div><h2>MusiMap Library</h2></div>
+                    <div class="navmenu">
+
+                        <div class="searchbar" >
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn" ><i class="fa fa-bars dropbtn"></i></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="index">Home</a>
+                                    <a href="add">My Library</a>
+                                    <a href="help">Help</a>
+                                </div>
+                                <form action="results" class="pull-right flex-outer" >
+                                    <input size="32" type="text" name="searchName" placeholder="Search Here... " required >
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>   
+                            {{#each artists}}
+                            <div class="artists">
+                                <a href="artistscreen/{{name}}"><h3>{{name}}</h3></a>
+                            </div>
+                            <hr>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <script src="js/jquery-1.11.0.js"></script>
+            <script src="js/bootstrap.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+            </script>
+    </body>
+</html>
+
+

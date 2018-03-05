@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>MusiMap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/bootstrap-theme.css" rel="stylesheet" />
+        <link href="./css/login.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+
+    <body>
+        <div class="loginscreen">
+			<h1>MusiMap</h1>
+			<div>Username</div>
+			<div>
+				<input type="text" placeholder="Default">
+			</div>
+			<div>Password</div>
+			<div>
+				<input type="text" placeholder="*******">
+			</div>
+            <div>
+				<a  href='index'>
+					<h2>Login</h2>
+				</a>
+            </div>
+            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
+
+
+        </div>
+        <script src="js/jquery-1.11.0.js"></script>
+        <script src="js/bootstrap.js"></script>
+        {{> facebook}}
+        <script src="/js/facebook.js"></script>
+    </body>
+</html>

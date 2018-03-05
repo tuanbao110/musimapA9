@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+
+.search {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100%;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+}
+.search .header {
+  top                 : 1px;
+  height              : 67px;
+  width               : 1451px;
+  position            : absolute;
+  margin              : 0;
+  left                : -7px;
+}
+.search .header .search-icon {
+  top                 : 0px;
+  height              : 60px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1394px;
+}
+.search .header .search-icon .handle2 {
+  top                 : 26px;
+  height              : 34px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.search .header .search-icon .handle1 {
+  top                 : 28px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.search .header .search-icon .magnifying-glass {
+  top                 : 0px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.search .header .header-border {
+  top                 : 55px;
+  height              : 17px;
+  width               : 1451px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.search .label1 {
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 30.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : left;
+  line-height         : 35.0px;
+}
+.search .transparent {
+  top                 : 71px;
+  height              : 955px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.35;
+}

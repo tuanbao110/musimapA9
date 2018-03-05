@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+
+.artist-screen {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100%;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.artist-screen .artist-header {
+  top                 : 1px;
+  height              : 581px;
+  width               : 1452px;
+  position            : absolute;
+  margin              : 0;
+  left                : -7px;
+}
+.artist-screen .artist-header .menu-icon {
+  top                 : 21px;
+  height              : 23px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.artist-screen .artist-header .menu-icon .line {
+  top                 : 10px;
+  height              : 6px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.artist-screen .artist-header .menu-icon .image1 {
+  top                 : 21px;
+  height              : 6px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.artist-screen .artist-header .menu-icon .image2 {
+  top                 : 0px;
+  height              : 6px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.artist-screen .artist-header .search-icon {
+  top                 : 5px;
+  height              : 46px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1402px;
+}
+.artist-screen .artist-header .search-icon .path {
+  top                 : 26px;
+  height              : 34px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.artist-screen .artist-header .search-icon .image3 {
+  top                 : 28px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.artist-screen .artist-header .search-icon .oval {
+  top                 : 0px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.artist-screen .artist-header .artist-border {
+  top                 : 569px;
+  height              : 17px;
+  width               : 1451px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.artist-screen .artist-header .header-border {
+  top                 : 55px;
+  height              : 17px;
+  width               : 1451px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.artist-screen .artist {
+  top                 : 95px;
+  height              : 435px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 558px;
+}
+.artist-screen .artist .artist-frame {
+  top                 : 0px;
+  height              : 360px;
+  width               : 342px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.artist-screen .artist .artist-head {
+  top                 : 48px;
+  height              : 149px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+}
+.artist-screen .artist .body1 {
+  top                 : 177px;
+  height              : 147px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.artist-screen .artist .body2 {
+  top                 : 178px;
+  height              : 147px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+}
+.artist-screen .artist .artist-name {
+  top                 : 399px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.artist-screen .biography {
+  top                 : 614px;
+  height              : 110px;
+  width               : 1103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+}
+.artist-screen .biography .bio {
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 32.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : center;
+  line-height         : 38.0px;
+}
+.artist-screen .biography .the-quick-brown-fox {
+  top                 : 38px;
+  height              : auto;
+  width               : 1076px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.artist-screen .add-to-favorite {
+  top                 : 360px;
+  height              : 71px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 831px;
+}
+.artist-screen .add-to-favorite .add2 {
+  top                 : 37px;
+  height              : 5px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+}
+.artist-screen .add-to-favorite .add1 {
+  top                 : 25px;
+  height              : 29px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 75px;
+}
+.artist-screen .add-to-favorite .add-button-frame {
+  top                 : 0px;
+  height              : 71px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.artist-screen .back {
+  top                 : 117px;
+  height              : 71px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 497px;
+}
+.artist-screen .back .back-button-frame {
+  top                 : 0px;
+  height              : 71px;
+  width               : 131px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.artist-screen .back .back2 {
+  top                 : 18px;
+  height              : 18px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+}
+.artist-screen .back .back1 {
+  top                 : 30px;
+  height              : 18px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+}
+.artist-screen .music-stuff {
+  top                 : 815px;
+  height              : 215px;
+  width               : 1065px;
+  position            : absolute;
+  margin              : 0;
+  left                : 173px;
+}
+
+.artist-screen .music-stuff .items {
+  top                 : 60px;
+  height              : 165px;
+  width               : 1065px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.artist-screen .music-stuff .music-button {
+  top                 : 0px;
+  height              : 56px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.artist-screen .music-stuff .videos-button {
+  top                 : 0px;
+  height              : 56px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(150, 150, 150, 1.0);
+}
+.artist-screen .music-stuff .music {
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.artist-screen .music-stuff .videos {
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  opacity             : 0.58;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.artist-screen .music-stuff .line1 {
+  top                 : 126px;
+  height              : 2px;
+  width               : 1059px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.artist-screen .music-stuff .line2 {
+  top                 : 189px;
+  height              : 2px;
+  width               : 1059px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.artist-screen .music-stuff .song1 {
+  top                 : 73px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.artist-screen .music-stuff .song2 {
+  top                 : 140px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.artist-screen .music-stuff .a330 {
+  top                 : 137px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.artist-screen .music-stuff .play-button1 {
+  top                 : 76px;
+  height              : 23px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.artist-screen .music-stuff .play-button1 .triangle {
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.artist-screen .music-stuff .play-button2 {
+  top                 : 142px;
+  height              : 23px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+}
+.artist-screen .music-stuff .play-button2 .triangle2 {
+  top                 : 0px;
+  height              : 26px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(90deg);
+  -webkit-transform   : rotate(90deg);
+  transform           : rotate(90deg);
+}
+.artist-screen .music-stuff .a135 {
+  top                 : 71px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+
+.artist-screen .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
