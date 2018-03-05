@@ -16,30 +16,6 @@ exports.view = function(req, res){
     //make set of data not in library
     var notInLibrary = subtract(data, data2);
 
-    //loop through all nodes
-    /*for(var i = 0; i < data.artists.length; i++) {
-        var inLibrary = 0;
-        var obj1 = data.artists[i];
-        for(var j = 0; j < data2.artists.length; j++) {
-            var obj2 = data2.artists[j];
-            if(obj1.name == obj2.name) {
-                inLibrary = 1;
-            }
-        }
-
-        //if not in library, add to node set
-        if(inLibrary == 0) {
-            var newNode = {"data": {"id": obj1.name, "label": obj1.name, "genre:": obj1.genre,
-            "inLibrary": 'false', "href":"artistscreen/"+obj1.name}};
-            //newData.nodes.push(newNode);
-        }
-        else {
-            var newNode = {"data": {"id": obj1.name, "label": obj1.name, "genre:": obj1.genre,
-            "inLibrary": 'true', "href":"artistscreen/"+obj1.name}};
-            newData.nodes.push(newNode);
-        }
-    }*/
-
     //make edges
     for(var i = 0; i < data.artists.length; i++) {
         var obj1 = data.artists[i];

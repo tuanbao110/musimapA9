@@ -107,6 +107,24 @@
             "genre": "Progressive Metal",
             "description": "These guys are the definitive prog metal band.",
             "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41GLr285jzL._SS500.jpg"
+        },
+        {
+            "name": "Gorguts",
+            "genre": "Death Metal",
+            "description": "Another excellent, brutal, old-school death metal band.",
+            "imageURL": "https://www.hrrshop.de/bilder/produkte/gross/GORGUTS-The-Erosion-of-Sanity-LP-BLACK.jpg"
+        },
+        {
+            "name": "Obituary",
+            "genre": "Death Metal",
+            "description": "Once left for dead, this group is still very much alive and well.",
+            "imageURL": "https://www.metal-archives.com/images/7/9/8/1/79819.jpg?3936"
+        },
+        {
+            "name": "Slayer",
+            "genre": "Thrash Metal",
+            "description": "A groundbreaking thrash band that's a must-listen for metal fans.",
+            "imageURL": "https://t2.genius.com/unsafe/523x0/https%3A%2F%2Fimages.genius.com%2Fddb47c7befac495996c5f7a8abd4881f.600x600x1.jpg"
         }
-	]
+    ]
 }

@@ -28,10 +28,10 @@ $.getJSON("data3.json", function (data) {
                 'content': 'data(label)',
                 'text-valign': 'center',
                 'text-outline-width': 2,
-                'text-outline-color': 'black',
+                'text-outline-color': 'red',
                 'color': 'white',
                 'shape': 'hexagon',
-                'background-color': 'black'
+                'background-color': 'red'
             }
         },
         {
@@ -40,10 +40,16 @@ $.getJSON("data3.json", function (data) {
                 'content': 'data(label)',
                 'text-valign': 'center',
                 'text-outline-width': 2,
-                'text-outline-color': 'gray',
+                'text-outline-color': 'black',
                 'color': 'white',
                 'shape': 'hexagon',
-                'background-color': 'gray'
+                'background-color': 'black'
+            }
+        },
+        {
+            selector: 'edge',
+            style: {
+                'line-color': 'gray'
             }
         }
         ],
@@ -55,6 +61,8 @@ $.getJSON("data3.json", function (data) {
     cy.on('tap', 'node', function() {
         window.parent.location.href = this.data('href');
     });
+
+    cy.nodes().ungrabify();
 });
         </script>
     </body>
