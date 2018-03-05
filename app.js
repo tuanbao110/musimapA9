@@ -50,10 +50,10 @@ app.get('/index', index.view);
 app.get('/likeThis/:name', likeThis.viewFromArtist);
 app.get('/menu', menu.view);
 app.get('/results', results.view);
-app.get('/add/:name', library.addArtist);
-app.get('/add', library.addArtist);
-app.get('/addAlt', library.addAlt);
-app.get('/addAlt/:name', library.addAlt);
+app.get('/add/:name', library.addAlt);
+app.get('/add', library.addAlt);
+app.get('/addAlt', library.addArtist);
+app.get('/addAlt/:name', library.addArtist);
 app.get('/map', map.view);
 
 var hbs = require('handlebars');
