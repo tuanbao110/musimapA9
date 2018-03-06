@@ -12,6 +12,8 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "cytoscape": "^3.2.9",
+    "cytoscape-cola": "^2.1.0",
     "express": "3.x",
     "express3-handlebars": "*",
     "mongodb": "*",

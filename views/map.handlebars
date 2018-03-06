@@ -15,6 +15,7 @@
     </head>
     <body>
         <div id="cy"></div>
+
         <script>
 $.getJSON("data3.json", function (data) {
     console.log(data);
@@ -28,10 +29,10 @@ $.getJSON("data3.json", function (data) {
                 'content': 'data(label)',
                 'text-valign': 'center',
                 'text-outline-width': 2,
-                'text-outline-color': 'red',
+                'text-outline-color': '#a80a0a',
                 'color': 'white',
                 'shape': 'hexagon',
-                'background-color': 'red'
+                'background-color': '#a80a0a'
             }
         },
         {
@@ -49,12 +50,12 @@ $.getJSON("data3.json", function (data) {
         {
             selector: 'edge',
             style: {
-                'line-color': 'gray'
+                'line-color': 'gray',
+                'overlay-opacity': 0
             }
         }
         ],
         layout: {
-            name: 'cose'
         }
     });
 
@@ -63,6 +64,8 @@ $.getJSON("data3.json", function (data) {
     });
 
     cy.nodes().ungrabify();
+    var layout = cy.layout({name: 'cose'});
+    layout.run();
 });
         </script>
     </body>
