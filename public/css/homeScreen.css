@@ -24,7 +24,7 @@ margin: 0px;
 .dropdown {
     position: relative;
     display: block;
-    float: right;
+    float:center;
 }
 
 .dropdown-content {
@@ -32,11 +32,15 @@ margin: 0px;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 350px;
-    max-height: 240px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    overflow-y: scroll;
-    right: 0;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    overflow-y: auto;
+	top: -60px;
+	right:-4px;
+	padding: 15px;
+	padding-bottom: 15px;
+	border:none;
+	border-radius: 10px;
 }
 
 .dropdown-content a {
@@ -47,14 +51,26 @@ margin: 0px;
 }
 
 /* Searchbar Animation for fun */
-input[type=text] {
-    width: 25vw;
+input #searchbar{
+    width: vw;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+	position: absolute;
+	right: 20px;
+	top: 13px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
 }
 
-input[type=text]:focus {
-    width: 35vw;
+input #searchbar:focus {
+    width: vw;
+	position: absolute;
+	right: 20px;
+	top: 13px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
 }
 
 .textbody {
@@ -89,6 +105,8 @@ input[type=text]:focus {
 
 .image {
     display: block;
+	border-radius: 50%;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .overlay {
@@ -150,10 +168,10 @@ input[type=text]:focus {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: left;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
@@ -164,20 +182,20 @@ input[type=text]:focus {
   -webkit-flex-basis: 50%;
   -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
-  background-color: #aaaaaa;
+  background-color: #a80a0a;
   padding: 14px 16px;
   font-size: 15px;
   color: white;
 }
 
 .tab-link:hover {
-  background-color: #a80a0a;
+  background-color: #F5A523;
   color: white;
-  transition: 0.3s;
+  transition: 0.15s;
 }
 
 .tab-link.active {
-  background-color: #a80a0a;
+  background-color: #F5A523;
 }
 .text-block {
   text-align: center;
@@ -189,12 +207,15 @@ input[type=text]:focus {
     margin-right: auto;
 	margin-bottom: 20px;
     width: 30%;
+	border-radius: 50%;
+	box-shadow: 2px 2px 6px #999999;
 }
 
 .center{
     margin-left: auto;
     margin-right: auto;
 	text-align:center;
+	text-shadow: 2px 2px 7px #999999;
 }
 
 .genre{
@@ -211,7 +232,7 @@ input[type=text]:focus {
 	line-height: auto;
 }
 
-h4, p {
+.titles, p {
   display: inline;
 }
 
@@ -219,3 +240,110 @@ h4, p {
 	margin-left:15%;
     margin-right: 15%;
 }
+.xbutton{
+  display: inline-block;
+  margin: 0;
+}
+.getstart .textbox{
+	text-align: left;
+}
+.getstart{
+	padding: 10px;
+	background-color: rgba(245, 165, 35, 0.8);
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	
+}
+
+.headerbtn{
+	font-weight: bold;
+	text-shadow: 2px 2px 7px #666666;
+}
+.container{
+	text-shadow: 2px 2px 7px #666666;
+}
+
+.container .text{
+	text-shadow: 3px 3px 4px #000000;
+}
+
+.icon{
+	 display: inline; 
+	 margin: 0;
+	 width: 100px;
+	 padding-right: 10px;
+}
+
+h1{
+	font-weight: bold;
+}
+
+form {
+	display: inline;
+	width: vw;
+}
+.container .dropdown-content{
+	text-shadow: 0 1px 4px #bbbbbb;
+}
+
+.container .dropdown-content p{
+	text-shadow: 0 0 0 #ffffff;
+}
+
+.frame{
+	border: inset;
+	border-radius: 10px;
+	color: #a80a0a;
+	border-width: 5px;
+	margin:10px; 
+	height:73%; 
+	width:95%;
+	position: absolute;
+	top: 160px;
+	bottom: 10px;
+	z-index: -1;
+	
+}
+
+.button{
+
+	border: none;
+	height:23px;
+	width:23px;
+	position: absolute;
+	z-index: 1;
+	right: 20px;
+	top: 15px;
+	background: transparent;
+	border-radius:5px;
+	
+}
+.fa-question{
+	position: absolute;
+	top:7px;
+	right:8px;
+	border:solid;
+	width:23px;
+	height:23px;
+	padding-left:5px;
+	padding-top:2px;
+	border-width:1px;
+	border-radius:50%;
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+	
+}
+.dropbtn{
+	font-size:medium;
+}
+.logout{
+	position: absolute;
+	top:75px;
+	right:5px;
+	background: #F5A523;
+	padding:5px 7px;
+	border-radius:4px;
+	font-weight:bold;
+	color: white;
+	box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+

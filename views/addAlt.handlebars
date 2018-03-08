@@ -18,9 +18,17 @@
         <nav class="navbar">
             <!-- Container for Dropdown and Search bar -->
             <div class="container">
-                <div><h2 style="color:#a80a0a">MusiMap Library</h2></div>
+			<a href="../" class="logout"> log out </a>
+                <div>		
+				<h1 style="color:#a80a0a" >
+					<a href="../index"</a><img src="../img/icon.png" width=30% class="icon" >
+						<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
+							<i class="fa fa-question dropbtn"></i>
+						</a>
+						> Library
+					</h1>
+				</div>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn" ><i class="fa fa-question dropbtn"></i></button>
                         <div id="myDropdown" class="dropdown-content">
                             <h3>Help Topics</h3>
                             <hr>
@@ -50,28 +58,28 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Searchbar inline block with dropdown menu -->
-                    <form action="results" class="pull-right flex-outer" id="search">
-                        <input id="searchbar" size="32" type="text" name="searchName" placeholder="Search Here..." required>
-                        <button type="submit" id="search-button"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
-                <div class="tabs-menu">
-                    <a class="tab-link" href="../index">
-                        <div class="text-block">Home</div></a>
-                   <!-- <a class="tab-link w-inline-block w-tab-link" href="#">
-                        <div class="text-block">Search</div></a> -->
-                        <a class="tab-link" href="../add">
-                            <div class="text-block">Library</div></a>
-                </div>
             </div>
+                <div class="tabs-menu">
+                        <a class="tab-link" href="../add">
+                            <div class="text-block headerbtn">Library</div></a>
+						<a class="tab-link" >
+							<div class="text-block headerbtn"> 
+							<!-- Searchbar inline block with dropdown menu -->
+								<form action="results"  id="search">
+									<input id="searchbar" type="text" name="searchName" placeholder="Search..." required >
+									<button type="submit" id="search-button" class="button pull-right"><i class="fa fa-search"></i></button>
+								</form>
+							</div>
+						</a>
+                </div>
+
             <hr>
                 <div class="container">
                     {{#eachRow artists 4}}
                     <div class="row">
                         {{#each columns}}
                         <div class="group">
-                            <img src="{{imageURL}}" alt="{{name}}" class="image">
+                            <a href="../artistscreen/{{name}}"><img src="{{imageURL}}" alt="{{name}}" class="image"></a>
                             <div class="centered"><a class="text" id="artistLink" href="../artistscreen/{{name}}">{{name}}</a></div>
                         </div>
                         {{/each}}

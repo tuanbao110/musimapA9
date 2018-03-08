@@ -16,9 +16,18 @@
         <nav class="navbar">
             <!-- Container for Dropdown and Search bar -->
             <div class="container">
-                <div><h2 style="color:#a80a0a">MusiMap Artist Page</h2></div>
+                <div>
+					<a href="../" class="logout"> log out </a>
+					<h1 style="color:#a80a0a">
+						<a href="../index"</a><img src="../img/icon.png" width=30% class="icon" >
+							<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
+							<i class="fa fa-question dropbtn"></i>
+							</a>
+						</a> > Artist
+					</h1>
+				</div>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn" ><i class="fa fa-question dropbtn"></i></button>
+                        
                         <div id="myDropdown" class="dropdown-content">
                             <h3>Help Topics</h3>
                             <hr>
@@ -44,48 +53,53 @@
                             <div>
                                 <p>Once you click on an on the Map, you will be taken to that artist's page, 
                                     where you can press "Add to my library". The next time you access your 
-                                    library, that artist will show up in there.</p>
+                                    library, that artist will show up in there.
+								</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Searchbar inline block with dropdown menu -->
-                    <form action="results" class="pull-right flex-outer" id="search">
-                        <input id="searchbar" size="32" type="text" name="searchName" placeholder="Search Here..." required>
-                        <button type="submit" id="search-button"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
+				</div>
+                
                 <div class="tabs-menu">
-                    <a class="tab-link" href="../index">
-                        <div class="text-block">Home</div></a>
-                   <!-- <a class="tab-link w-inline-block w-tab-link" href="#">
-                        <div class="text-block">Search</div></a> -->
                         <a class="tab-link" href="../add">
-                            <div class="text-block">Library</div></a>
+                            <div class="text-block headerbtn">Library</div></a>
+						<a class="tab-link" >
+							<div class="text-block headerbtn"> 
+							<!-- Searchbar inline block with dropdown menu -->
+								<form action="results"  id="search">
+									<input id="searchbar" type="text" name="searchName" placeholder="Search..." required >
+									<button type="submit" id="search-button" class="button pull-right"><i class="fa fa-search"></i></button>
+								</form>
+							</div>
+						</a>
                 </div>
+
                 <div>
                     <div>
                         <div>
                             <div>
-                                <h2  class="center">{{name}}</h2>
+                                <h2 style="color:#a80a0a" class="center">{{name}}</h2>
                             </div>
-                            <img src="{{imageURL}}" width="25%" height="25%" alt="Artist Image" class="img-responsive center" >
+                            <img src="{{imageURL}}" width="45%" height="45%" alt="Artist Image" class="img-responsive center" >
                         </div>
                             <div class="bio">
 								<div class="genre">
-									<h4>Genre: </h4><p>{{genre}}</p>
+									<h4 style="color:#a80a0a" class="titles">Genre: </h4><p>{{genre}}</p>
 								</div>
 								<div> </div>
 								<div class="description">
-									<h4>Description: </h4><p>{{description}}</p>
+									<h4 style="color:#a80a0a" class="titles">Description: </h4><p>{{description}}</p>
+									
 								</div>
 							</div>
                         <div class="center">
                             {{#if inLibrary}}
-                            <div><a href="../add/{{name}}"><h3>Remove From Library</h3></a></div>
+							<div><a href="../likeThis/{{name}}"><h3 style="color:#a80a0a">More Like This</h3></a></div>
+                            <div><a href="../add/{{name}}"><h4 style="color:#a80a0a">Remove From Library</h4></a></div>
                             {{else}}
-                            <div><a href="../add/{{name}}"><h3>Add to Library</h3></a></div>
+                            <div><a href="../add/{{name}}"><h3 style="color:#a80a0a">Add to Library</h3></a></div>
+							<div><a href="../likeThis/{{name}}"><h3 style="color:#a80a0a">More Like This</h3></a></div>
                             {{/if}}
-                            <div><a href="../likeThis/{{name}}"><h3>More Like This</h3></a></div>
                         </div>
                     </div>
                 </div>

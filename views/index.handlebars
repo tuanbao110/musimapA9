@@ -17,9 +17,12 @@
         <nav class="navbar">
             <!-- Container for Dropdown and Search bar -->
             <div class="container">
-                <div><h2 style="color:#a80a0a">MusiMap</h2></div>
+			<a href="../" class="logout"> log out </a>
+                <div><h1 style="color:#a80a0a" ><a href="../index"</a><img src="../img/icon.png" class="icon" >
+						<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
+							<i class="fa fa-question dropbtn"></i>
+						</a> > Home</h1></div>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn" ><i class="fa fa-question dropbtn"></i></button>
                         <div id="myDropdown" class="dropdown-content">
                             <h3>Help Topics</h3>
                             <hr>
@@ -49,33 +52,43 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Searchbar inline block with dropdown menu -->
-                    <form action="results" class="pull-right flex-outer" id="search">
-                        <input id="searchbar" size="32" type="text" name="searchName" placeholder="Search Here..." required>
-                        <button type="submit" id="search-button"><i class="fa fa-search"></i></button>
-                    </form>
                 </div>
-                <div class="tabs-menu">
-                    <a class="tab-link" href="../index">
-                        <div class="text-block">Home</div></a>
-                   <!-- <a class="tab-link w-inline-block w-tab-link" href="#">
-                        <div class="text-block">Search</div></a> -->
+
+				<div class="tabs-menu">
                         <a class="tab-link" href="../add">
-                            <div class="text-block">Library</div></a>
+                            <div class="text-block headerbtn">Library</div></a>
+						<a class="tab-link" >
+							<div class="text-block headerbtn"> 
+							<!-- Searchbar inline block with dropdown menu -->
+								<form action="results"  id="search">
+									<input id="searchbar" type="text" name="searchName" placeholder="Search..." required >
+									<button type="submit" id="search-button" class="button pull-right"><i class="fa fa-search"></i></button>
+								</form>
+							</div>
+						</a>
                 </div>
             </div>
         </nav>
         <div class="textbody">
-            <hr>
-            <h4>Welcome to Musimap!</h4>
-            <p>This is a web app for exploring and cataloging music artists.</p>
-            <p>Use the map or search for artists to add to your music collection.</p>
-            <p>Check the help page for more information.</p>
-            <hr>
+			<div id="welcome" class="getstart">
+				<div class="xbutton">
+					<h4>Welcome to Musimap!
+					
+				</div>
+				<div> </div>
+				<div class="textbox">
+				
+					<p>This is a web app for exploring and cataloging music artists.</p>
+					<p>Use the map or search for artists to add to your music collection.</p>
+					<p>Press the '?' button for more information.</p>
+					<a onclick="gettingstarted()" class="pull-right">x</a></h4>
+				</div>
+			</div>
         </div>
-        <div>
-            <iframe src="map" style="margin:10px; border:solid; width:95%; height:500px"></iframe>
+        <div >
+            <iframe src="map" class="frame" ></iframe>
         </div>
+
         
         <script src="js/jquery-1.11.0.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -103,5 +116,15 @@
         }
         </script>
     
+	<script>
+function gettingstarted() {
+    var x = document.getElementById("welcome");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+        </script>
     </body>
 </html>
