@@ -188,6 +188,16 @@ input #searchbar:focus {
   color: white;
 }
 
+.tab-link-active {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    background-color: #F5A523;
+    padding: 14px 16px;
+    font-size: 15px;
+    color: white;
+  }
+
 .tab-link:hover {
   background-color: #F5A523;
   color: white;
