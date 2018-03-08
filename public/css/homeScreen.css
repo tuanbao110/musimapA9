@@ -271,6 +271,7 @@ input #searchbar:focus {
 	 display: inline; 
 	 margin: 0;
 	 padding-right: 10px;
+	 width: 100px;
 }
 
 h1{
