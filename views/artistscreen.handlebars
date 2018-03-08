@@ -17,13 +17,14 @@
             <!-- Container for Dropdown and Search bar -->
             <div class="container">
                 <div>
+                    <a class="backbtn" onclick="goBack()"> < Back</a>
 					<a href="../" class="logout"> log out </a>
 					<h1 style="color:#a80a0a">
 						<a href="../index"</a><img src="../img/icon.png" width=30% class="icon" >
 							<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
 							<i class="fa fa-question dropbtn"></i>
 							</a>
-						</a> > Artist
+						</a>
 					</h1>
 				</div>
                     <div class="dropdown">
@@ -128,6 +129,11 @@ window.onclick = function(event) {
         }
     }
 }
+            </script>
+            <script>
+                function goBack() {
+                    window.history.back();
+                }
             </script>
     </body>
 </html>
