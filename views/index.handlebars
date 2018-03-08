@@ -17,8 +17,9 @@
         <nav class="navbar">
             <!-- Container for Dropdown and Search bar -->
             <div class="container">
-                <div><h1 style="color:#a80a0a" ><a href="../index"</a><img src="../img/icon.png" width=30% class="icon" >
-						<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn pull-right" >
+			<a href="../" class="logout"> log out </a>
+                <div><h1 style="color:#a80a0a" ><a href="../index"</a><img src="../img/icon.png" class="icon" >
+						<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
 							<i class="fa fa-question dropbtn"></i>
 						</a> > Home</h1></div>
                     <div class="dropdown">
@@ -71,23 +72,23 @@
         <div class="textbody">
 			<div id="welcome" class="getstart">
 				<div class="xbutton">
-					<h4>Welcome to Musimap!</h4>
+					<h4>Welcome to Musimap!
+					
 				</div>
 				<div> </div>
 				<div class="textbox">
+				
 					<p>This is a web app for exploring and cataloging music artists.</p>
 					<p>Use the map or search for artists to add to your music collection.</p>
 					<p>Press the '?' button for more information.</p>
-					<a onclick="gettingstarted()" class="pull-right">(hide)</a>
-					<hr>
+					<a onclick="gettingstarted()" class="pull-right">x</a></h4>
 				</div>
 			</div>
         </div>
-        <div>
-            <iframe src="map" style="margin:10px; border:solid; height:500px; width:95%"></iframe>
+        <div >
+            <iframe src="map" class="frame" ></iframe>
         </div>
-        <div class="textbody">
-        </div>
+
         
         <script src="js/jquery-1.11.0.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>

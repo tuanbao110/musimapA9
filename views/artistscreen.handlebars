@@ -17,9 +17,10 @@
             <!-- Container for Dropdown and Search bar -->
             <div class="container">
                 <div>
+					<a href="../" class="logout"> log out </a>
 					<h1 style="color:#a80a0a">
 						<a href="../index"</a><img src="../img/icon.png" width=30% class="icon" >
-							<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn pull-right" >
+							<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
 							<i class="fa fa-question dropbtn"></i>
 							</a>
 						</a> > Artist
@@ -77,28 +78,27 @@
                     <div>
                         <div>
                             <div>
-                                <h2  class="center">{{name}}</h2>
+                                <h2 style="color:#a80a0a" class="center">{{name}}</h2>
                             </div>
                             <img src="{{imageURL}}" width="45%" height="45%" alt="Artist Image" class="img-responsive center" >
                         </div>
                             <div class="bio">
 								<div class="genre">
-									<h4 class="titles">Genre: </h4><p>{{genre}}</p>
+									<h4 style="color:#a80a0a" class="titles">Genre: </h4><p>{{genre}}</p>
 								</div>
 								<div> </div>
 								<div class="description">
-									<h4 class="titles">Description: </h4><p>{{description}}</p>
+									<h4 style="color:#a80a0a" class="titles">Description: </h4><p>{{description}}</p>
+									
 								</div>
 							</div>
                         <div class="center">
-							
                             {{#if inLibrary}}
-							<div><a href="../likeThis/{{name}}"><h3>More Like This</h3></a></div>
-                            <div><a href="../add/{{name}}"><h4>Remove From Library</h4></a></div>
+							<div><a href="../likeThis/{{name}}"><h3 style="color:#a80a0a">More Like This</h3></a></div>
+                            <div><a href="../add/{{name}}"><h4 style="color:#a80a0a">Remove From Library</h4></a></div>
                             {{else}}
-                            <div><a href="../add/{{name}}"><h3>Add to Library</h3></a></div>
-							<div><a href="../likeThis/{{name}}"><h3>More Like This</h3></a></div>
-							
+                            <div><a href="../add/{{name}}"><h3 style="color:#a80a0a">Add to Library</h3></a></div>
+							<div><a href="../likeThis/{{name}}"><h3 style="color:#a80a0a">More Like This</h3></a></div>
                             {{/if}}
                         </div>
                     </div>
