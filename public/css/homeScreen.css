@@ -270,7 +270,6 @@ input #searchbar:focus {
 .icon{
 	 display: inline; 
 	 margin: 0;
-	 width: 100px;
 	 padding-right: 10px;
 }
 
@@ -280,7 +279,6 @@ h1{
 
 form {
 	display: inline;
-	width: vw;
 }
 .container .dropdown-content{
 	text-shadow: 0 1px 4px #bbbbbb;
@@ -329,7 +327,7 @@ form {
 	padding-top:2px;
 	border-width:1px;
 	border-radius:50%;
-	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, 0);
 	
 }
 .dropbtn{
