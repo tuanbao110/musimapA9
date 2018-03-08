@@ -33,7 +33,7 @@ margin: 0px;
     background-color: #f1f1f1;
     min-width: 350px;
     max-height: 240px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
     z-index: 1;
     overflow-y: scroll;
     right: 0;
@@ -89,6 +89,8 @@ input[type=text]:focus {
 
 .image {
     display: block;
+	border-radius: 50%;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .overlay {
@@ -173,7 +175,7 @@ input[type=text]:focus {
 .tab-link:hover {
   background-color: #a80a0a;
   color: white;
-  transition: 0.3s;
+  transition: 0.15s;
 }
 
 .tab-link.active {
@@ -189,12 +191,15 @@ input[type=text]:focus {
     margin-right: auto;
 	margin-bottom: 20px;
     width: 30%;
+	border-radius: 50%;
+	box-shadow: 2px 2px 6px #999999;
 }
 
 .center{
     margin-left: auto;
     margin-right: auto;
 	text-align:center;
+	text-shadow: 2px 2px 7px 
 }
 
 .genre{
@@ -218,4 +223,23 @@ h4, p {
 .artists{
 	margin-left:15%;
     margin-right: 15%;
+}
+.xbutton{
+  display: inline-block;
+  margin: 0;
+}
+.getstart .textbox{
+	text-align: left;
+}
+
+.headerbtn{
+	font-weight: bold;
+	text-shadow: 2px 2px 7px #666666
+}
+.container{
+	text-shadow: 2px 2px 7px #333333
+}
+
+.container .text{
+	text-shadow: 3px 3px 4px #000000
 }
