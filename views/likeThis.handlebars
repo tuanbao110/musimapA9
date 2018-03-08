@@ -18,11 +18,12 @@
         <nav class="navbar">
             <!-- Container for Dropdown and Search bar -->
             <div class="container">
+            <a class="backbtn" onclick="goBack()"> < Back</a>
 			<a href="../" class="logout"> log out </a>
                 <div><h2 style="color:#a80a0a; font-weight:bold;" ><a href="../index"</a><img src="../img/icon.png" class="icon" >
 						<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
 							<i class="fa fa-question dropbtn"></i>
-						</a> > Similar to</h2>
+						</a></h2>
                         <div id="myDropdown" class="dropdown-content">
                             <h3>Help Topics</h3>
                             <hr>
@@ -105,6 +106,11 @@ window.onclick = function(event) {
         }
     }
 }
+            </script>
+            <script>
+                function goBack() {
+                    window.history.back();
+                }
             </script>
 
     </body>

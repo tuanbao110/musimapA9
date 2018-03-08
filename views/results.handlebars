@@ -18,12 +18,13 @@
         <nav class="navbar">
             <!-- Container for Dropdown and Search bar -->
             <div class="container">
+            <a class="backbtn" onclick="goBack()"> < Back </a>
 			<a href="../" class="logout"> log out </a>
                 <div><h1 style="color:#a80a0a" >
 					<a href="../index"</a><img src="../img/icon.png" width=30% class="icon" >
 						<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
 							<i class="fa fa-question dropbtn"></i>
-						</a> > Results</h1>
+						</a></h1>
 					</a>
 				</div>
                     <div class="dropdown">
@@ -61,7 +62,7 @@
                 <div class="tabs-menu">
                         <a class="tab-link" href="../add">
                             <div class="text-block headerbtn">Library</div></a>
-						<a class="tab-link" >
+						<a class="tab-link-active" >
 							<div class="text-block headerbtn"> 
 							<!-- Searchbar inline block with dropdown menu -->
 								<form action="results"  id="search">
@@ -108,6 +109,11 @@ window.onclick = function(event) {
         }
     }
 }
+            </script>
+            <script>
+                function goBack() {
+                    window.history.back();
+                }
             </script>
     </body>
 </html>
