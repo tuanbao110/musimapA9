@@ -9,28 +9,30 @@
         <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css/bootstrap-theme.css" rel="stylesheet" />
         <link href="./css/login.css" rel="stylesheet" type="text/css"/>
+		<link href="./css/homeScreen.css" rel="stylesheet">
 
     </head>
 
     <body>
         <div class="loginscreen">
-			<h1 style="color:#a80a0a">MusiMap</h1>
-			<div>Username</div>
-			<div>
+			
+					<a href="../index"</a><img src="../img/icon.png" width=80% class="icon" >
+						<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn pull-right" >
+							<i class="fa fa-question dropbtn"></i>
+						</a>
+			<div class="desc">Username</div>
+			<div class="inputs">
 				<input type="text" placeholder="Default">
 			</div>
-			<div>Password</div>
-			<div>
+			<div class="desc">Password</div>
+			<div class="inputs">
 				<input type="text" placeholder="*******">
 			</div>
             <div>
-				<a  href='index'>
-					<h2>Login</h2>
-				</a>
-            </div>
+			<a href="index">
+               <div><h1 style="color:#a80a0a" class="headerbtn">Login</h1></div>
+			</a>
             <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
-
-
         </div>
         <script src="js/jquery-1.11.0.js"></script>
         <script src="js/bootstrap.js"></script>

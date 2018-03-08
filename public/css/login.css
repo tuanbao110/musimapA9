@@ -4,3 +4,9 @@
   margin-left 		  : 15%;
   margin-top		  : 15%;
 }
+
+.desc{
+	font-weight: bold;
+	text-shadow: 2px 2px 5px #999999;
+}
+
