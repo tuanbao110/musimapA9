@@ -2,10 +2,8 @@
 
 <html>
     <head>
-		<link rel="icon" type="image/png" href="../img/icon.png" />
-		<img src="../img/icon.png">
         <title>MusiMap Library</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
         <link href="../css/bootstrap.css" rel="stylesheet">
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/bootstrap-theme.css" rel="stylesheet">
@@ -16,13 +14,20 @@
     </head>
 
     <body>
-        <!-- Navbar - Will keep for future styling... -->
+       <!-- Navbar - Will keep for future styling... -->
         <nav class="navbar">
             <!-- Container for Dropdown and Search bar -->
             <div class="container">
-                <div><h1 style="color:#a80a0a">	<img src="../img/icon.png" width=30% class="icon" > Library</h1></div>
+			<a href="../" class="logout"> log out </a>
+                <div>		
+				<h1 style="color:#a80a0a">
+					<a href="../index"</a><img src="../img/icon.png" width=30% class="icon" >
+						<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
+							<i class="fa fa-question dropbtn"></i>
+						</a> > Library
+					</h1>
+				</div>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn" ><i class="fa fa-question dropbtn"></i></button>
                         <div id="myDropdown" class="dropdown-content">
                             <h3>Help Topics</h3>
                             <hr>
@@ -52,16 +57,15 @@
                             </div>
                         </div>
                     </div>
-                    
-                </div>
+            </div>
                 <div class="tabs-menu">
-                        <a class="tab-link-active" href="../add">
+                        <a class="tab-link" href="../add">
                             <div class="text-block headerbtn">Library</div></a>
-						<a class="tab-link">
+						<a class="tab-link" >
 							<div class="text-block headerbtn"> 
 							<!-- Searchbar inline block with dropdown menu -->
-								<form action="results"  id="search">
-									<input id="searchbar" type="text" name="searchName" placeholder="Search..." required >
+								<form action="../results"  id="search">
+									<input id="searchbar" type="text" name="searchName" placeholder="Search Artist" required >
 									<button type="submit" id="search-button" class="button pull-right"><i class="fa fa-search"></i></button>
 								</form>
 							</div>
@@ -104,8 +108,10 @@ window.onclick = function(event) {
         }
     }
 }
-            </script>            
+            </script>
+            
     </body>
 </html>
+
 
 
