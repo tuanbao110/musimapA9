@@ -14,21 +14,18 @@
     <body>
                 <!-- Navbar - Will keep for future styling... -->
         <nav class="navbar">
-            <!-- Container for Dropdown and Search bar -->
+           <!-- Container for Dropdown and Search bar -->
             <div class="container">
-                <div>
-                    <a class="backbtn" onclick="goBack()"> < Back</a>
-					<a href="../" class="logout"> log out </a>
-					<h1 style="color:#a80a0a">
-						<a href="../index"</a><img src="../img/icon.png" width=30% class="icon" >
-							<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
+			<a href="../" class="logout"> log out </a>
+                <div>		
+				<h1 style="color:#a80a0a">
+					<a href="../index"</a><img src="../img/icon.png" width=30% class="icon" >
+						<a style="color:#a80a0a" onclick="myFunction()" class="dropbtn" >
 							<i class="fa fa-question dropbtn"></i>
-							</a>
-						</a> > Artist
+						</a> > Library
 					</h1>
 				</div>
                     <div class="dropdown">
-                        
                         <div id="myDropdown" class="dropdown-content">
                             <h3>Help Topics</h3>
                             <hr>
@@ -54,12 +51,11 @@
                             <div>
                                 <p>Once you click on an on the Map, you will be taken to that artist's page, 
                                     where you can press "Add to my library". The next time you access your 
-                                    library, that artist will show up in there.
-								</p>
+                                    library, that artist will show up in there.</p>
                             </div>
                         </div>
                     </div>
-				</div>
+            </div>
                 
                 <div class="tabs-menu">
                         <a class="tab-link" href="../add">
@@ -67,7 +63,7 @@
 						<a class="tab-link" >
 							<div class="text-block headerbtn"> 
 							<!-- Searchbar inline block with dropdown menu -->
-								<form action="results"  id="search">
+								<form action="../results"  id="search">
 									<input id="searchbar" type="text" name="searchName" placeholder="Search Artist" required >
 									<button type="submit" id="search-button" class="button pull-right"><i class="fa fa-search"></i></button>
 								</form>
