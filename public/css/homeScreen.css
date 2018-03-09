@@ -65,7 +65,6 @@ input #searchbar:focus {
 }
 
 .textbody {
-    margin: 10px;
     text-align: center;
 }
 .textbody h4 {
@@ -179,16 +178,6 @@ input #searchbar:focus {
   color: white;
 }
 
-.tab-link-active {
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    background-color: #F5A523;
-    padding: 14px 16px;
-    font-size: 15px;
-    color: white;
-  }
-
 .tab-link:hover {
   background-color: #F5A523;
   color: white;
@@ -269,10 +258,10 @@ input #searchbar:focus {
 }
 
 .icon{
-	 display: block; 
-	 margin: auto;
+	 display: inline; 
+	 margin: 0;
 	 padding-right: 10px;
-     width: 30%;
+     width: 100px;
 }
 
 h1{
@@ -348,7 +337,7 @@ form {
 }
 .backbtn {
 	position: absolute;
-	top:75px;
+	top:175px;
 	left:5px;
 	background: #F5A523;
 	padding:5px 7px;
@@ -356,5 +345,8 @@ form {
 	font-weight:bold;
 	color: white;
 	box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+#title {
+    margin-top: 50px;
 }
 
